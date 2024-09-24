@@ -1,0 +1,25 @@
+/* .swiper {
+    width: 600px;
+    height: 300px;
+  } */
+
+@media screen and (max-width: 768px) {
+  .swiper-button-next::after, 
+  .swiper-button-prev::after {
+    font-size: 30px;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    top: var(--swiper-navigation-top-offset,80%);
+  }
+
+  .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset,80px);
+    left: auto;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+ 
+}
+  
